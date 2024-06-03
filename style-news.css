@@ -1,0 +1,102 @@
+ body {
+     /* font-family: 'Michroma', sans-serif; */
+     font-family: 'Lato', sans-serif;
+
+ }
+
+ :root {
+     --bg-aqua: #52c3b1;
+     --bg-red: #dc3329;
+     --text-red: #dc3329;
+     --text-blue: #010814;
+     --bg-blue: #010814;
+ }
+
+ .bg-aqua {
+     background-color: var(--bg-aqua);
+ }
+
+ .bg-red {
+     background-color: var(--bg-red);
+ }
+
+ .bg-blue {
+     background: url(images/starfield.jpg), var(--bg-blue);
+ }
+
+ .text-blue {
+     color: var(--bg-text);
+ }
+
+ .text-red {
+     color: var(--text-red);
+ }
+
+ .text {
+     position: absolute;
+     background-color: aqua;
+     top: 10rem;
+     left: 10rem;
+     z-index: 3;
+ }
+
+ .nav-link {
+     color: #fff;
+ }
+
+ .nav-link:hover {
+     color: var(--text-red);
+ }
+
+ .btn {
+     color: #fff;
+ }
+
+ .btn:hover {
+     background: #c02017;
+ }
+
+ .link-body-emphasis {
+     color: var(--text-red);
+ }
+
+ .link-body-emphasis:hover {
+     color: #c02017;
+ }
+
+ .form-control {
+     background: none;
+ }
+
+
+ .text-body-secondary {
+     color: var(--text-red);
+ }
+
+ .text-body-secondary:hover {
+     color: var(--text-blue);
+ }
+
+ .navbar-scrolled {
+     background-color: #000 !important;
+ }
+
+
+ .dropdown-menu {
+     --bs-dropdown-link-active-bg: #010814;
+ }
+
+ .contain {
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     background: var(--bg-blue);
+ }
+
+ @media (max-width:600px) {
+     .img {
+         width: 300px;
+         height: 300px;
+         object-fit: cover;
+     }
+ }
